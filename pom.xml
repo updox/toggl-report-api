@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.rocketbase.toggl</groupId>
-    <artifactId>toggl-report-api</artifactId>
+    <artifactId>toggl-report-api-updox</artifactId>
     <version>localBuild-SNAPSHOT</version><!-- replacedWithBuildNumber -->
 
     <properties>
