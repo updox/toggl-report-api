@@ -1,0 +1,12 @@
+<project name="Versioning" default="versionIt" basedir=".">
+    <target name="versionIt"
+            description="Update with build number">
+
+        <replaceregexp flags="g" match="version>.*version>.{1}!-- replacedWithBuildNumber -->"
+                       replace="version>${build.number}&lt;/version>">
+            <fileset dir="." >
+                <include name="**/pom.xml"/>
+            </fileset>
+        </replaceregexp>
+    </target>
+</project>
