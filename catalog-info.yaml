@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: toggl-report-api
+  description: Java Client of Toggl's Reports API
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: updox/toggl-report-api
+    product: UPD
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Java
